@@ -1,0 +1,33 @@
+# https://github.com/dandavison/delta
+[core]
+    editor = vim
+    pager = delta
+    excludefile = ~/.gitignore_global
+[user]
+    name = ganariya
+    email = ganariya2525@gmail.com
+[color]
+    ui = auto
+[merge]
+    tool = vimdiff
+    conflictstyle = diff3
+[alias]
+    st = status
+    co = checkout
+    br = branch
+    up = rebase
+    ci = commit
+    tree = log --all --graph --pretty=format:'%x09%C(auto) %h %Cgreen %ar %Creset%x09by "%C(cyan ul)%an%Creset" %x09%C(auto)%s %d'
+[pull]
+	rebase = false
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+[interactive]
+    diffFilter = delta --color-only
+[delta]
+    navigate = true
+[diff]
+    colorMoved = default

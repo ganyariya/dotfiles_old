@@ -1,0 +1,30 @@
+name: daily
+root: ~/
+
+windows:
+  - work:
+      layout: even-vertical
+      panes:
+        - clear && neofetch && ide 
+  - install:
+      layout: tiled
+      panes:
+        - echo "install" && clear && clear
+        - echo "install" && clear && clear
+        - echo "install" && clear && clear
+        - echo "install" && clear && clear
+  - free:
+      layout: even-vertical
+        - echo "free" && clear
+  - zenn:
+      layout: even-horizontal
+      panes:
+        - cd develop/zenn-ganyariya && npx zenn preview -p 8100
+  - cui:
+      layout: tiled
+      panes:
+        - tweet endless
+        - asciiquarium
+        - derain
+        - pipes.sh
+        - gotop

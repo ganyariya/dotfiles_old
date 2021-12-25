@@ -1,0 +1,8 @@
+#!/bin/bash
+
+open https://studio.youtube.com/video/8GkiDFroXu8/livestreaming
+
+# open /Applications/OBS.app/Contents/MacOS/OBS --args -picture --startrecording --startstreaming &
+
+/Applications/OBS.app/Contents/MacOS/OBS --enable-media-stream &
+# open /Applications/OBS.app/Contents/MacOS/OBS --args --enable-media-stream &
