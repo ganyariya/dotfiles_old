@@ -19,12 +19,11 @@ windows:
   - zenn:
       layout: even-horizontal
       panes:
-        - cd develop/zenn-ganyariya && npx zenn preview -p 8100
+        - cd develop/zenn-ganyariya && npx zenn preview -p 8100 &
   - cui:
       layout: tiled
       panes:
-        - tweet endless
-        - asciiquarium
-        - derain
+        - clear && clear && tweet endless
+        #- asciiquarium
         - pipes.sh
         - gotop

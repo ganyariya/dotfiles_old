@@ -28,6 +28,7 @@ formulas=(
     exa
     ffmpeg
     fd
+    figlet
     fish
     gh
     git
