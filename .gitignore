@@ -28,8 +28,8 @@
 
 .config/karabiner/*
 !.config/karabiner/karabiner.json
-.config/nvim/*
-!.config/nvim/init.vim
+.config/nvim/plugged
+.config/nvim/plugin
 !.config/nvim/plugin-init-vim
 .config/fish/*
 !.config/fish/config.fish
