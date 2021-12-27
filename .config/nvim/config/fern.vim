@@ -8,6 +8,15 @@ let g:fern#renderer = 'nerdfont'
 let g:fern#default_hidden = 1
 
 " ------------------------------
+" Fern Icons Clor
+" ------------------------------
+augroup my-glyph-palette
+    autocmd! *
+    autocmd FileType fern call glyph_palette#apply()
+    autocmd FileType nerdtree call glyph_palette#apply()
+augroup END
+
+" ------------------------------
 " Fern Keymap
 " ------------------------------
 function! s:init_fern() abort
