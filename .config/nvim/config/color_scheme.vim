@@ -1,12 +1,11 @@
 " ------------------------------
 " Color Scheme
 " ------------------------------
-"set termguicolors
+set termguicolors
 
 "" night or storm
-"let g:tokyonight_style = 'storm' 
-"let g:tokyonight_enable_italic = 1
+let g:tokyonight_style = 'storm' 
+let g:tokyonight_enable_italic = 1
 
-"colorscheme tokyonight
-" colorscheme codedark
+colorscheme tokyonight
 

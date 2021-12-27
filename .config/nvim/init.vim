@@ -7,6 +7,11 @@
 let mapleader="\<Space>"
 
 " ------------------------------
+" Read Plugs
+" ------------------------------
+ source ~/.config/nvim/config/plug_list.vim
+
+" ------------------------------
 " Read Config
 " ------------------------------
 let vim_files = split(glob("~/.config/nvim/config/" . "*.vim"))
@@ -69,11 +74,3 @@ nnoremap <silent> <Leader>fd :Dashboard<CR>
 nnoremap <silent> <Leader>fss :<C-u>SessionSave<CR>
 nnoremap <silent> <Leader>fsl :<C-u>SessionLoad<CR>
 
-set termguicolors
-
-" night or storm
-let g:tokyonight_style = 'storm' 
-let g:tokyonight_enable_italic = 1
-
-colorscheme tokyonight
-" colorscheme codedark
