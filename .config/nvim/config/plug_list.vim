@@ -15,7 +15,8 @@ Plug 'ghifarit53/tokyonight-vim'
 " git diffusion
 Plug 'airblade/vim-gitgutter'
 
-" file manager https://qiita.com/youichiro/items/b4748b3e96106d25c5bc#%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%83%84%E3%83%AA%E3%83%BC%E3%82%92%E8%A1%A8%E7%A4%BA%E3%81%99%E3%82%8B
+" file manager
+" https://qiita.com/youichiro/items/b4748b3e96106d25c5bc#%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%83%84%E3%83%AA%E3%83%BC%E3%82%92%E8%A1%A8%E7%A4%BA%E3%81%99%E3%82%8B
 Plug 'lambdalisue/fern.vim'
 Plug 'lambdalisue/fern-git-status.vim'
 Plug 'lambdalisue/nerdfont.vim'
@@ -43,9 +44,6 @@ Plug 'wakatime/vim-wakatime'
 
 " https://qiita.com/psyashes/items/1e1716a59a0dc22ea204
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
-
-" color theme
-Plug 'ghifarit53/tokyonight-vim'
 
 " completion
 Plug 'neoclide/coc.nvim', {'branch': 'release'}

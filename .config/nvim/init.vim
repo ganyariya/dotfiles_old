@@ -6,7 +6,7 @@ let mapleader="\<Space>"
 " ------------------------------
 " Read Plugs
 " ------------------------------
- source ~/.config/nvim/config/plug_list.vim
+source ~/.config/nvim/config/plug_list.vim
 
 " ------------------------------
 " Read Config

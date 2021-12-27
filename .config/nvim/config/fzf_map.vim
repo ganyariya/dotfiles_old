@@ -13,7 +13,7 @@
 " nnoremap <Leader>p :call FzfOmniFiles()<CR>
 
 nnoremap <Leader>g :GFiles<CR>
-nnoremap <Leader>h :History<CR>
+nnoremap <Leader>hh :History<CR>
 nnoremap <Leader>b :Buffers<CR>
 nnoremap <Leader>ff :Files<CR>
 
