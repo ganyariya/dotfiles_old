@@ -258,6 +258,18 @@ augroup my-glyph-palette
 augroup END
 
 " ------------------------------
+" Fern Keymap
+" ------------------------------
+function! s:init_fern() abort
+    nnoremap <buffer> s <Nop>
+endfunction
+
+augroup fern-custom
+  autocmd! *
+  autocmd FileType fern call s:init_fern()
+augroup END
+
+" ------------------------------
 " Nvim-Treesitter
 " ------------------------------
 lua <<EOF
