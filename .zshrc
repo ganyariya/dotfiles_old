@@ -58,7 +58,21 @@ alias pdf2eps='pdftops -eps'
 # --------------------
 # vim
 # -------------------
+# https://qiita.com/b4b4r07/items/8db0257d2e6f6b19ecb9
 bindkey -v
+bindkey -M viins '^A'  beginning-of-line
+bindkey -M viins '^B'  backward-char
+bindkey -M viins '^D'  delete-char-or-list
+bindkey -M viins '^E'  end-of-line
+bindkey -M viins '^F'  forward-char
+bindkey -M viins '^G'  send-break
+bindkey -M viins '^H'  backward-delete-char
+bindkey -M viins '^K'  kill-line
+bindkey -M viins '^N'  history-beginning-search-forward 
+bindkey -M viins '^P'  history-beginning-search-backward
+bindkey -M viins '^U'  backward-kill-line
+bindkey -M viins '^W'  backward-kill-word
+bindkey -M viins '^Y'  yank
 
 # --------------------
 # zplug
