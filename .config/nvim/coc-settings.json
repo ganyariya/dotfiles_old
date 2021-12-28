@@ -1,0 +1,6 @@
+{
+  // prettier
+  "coc.preferences.formatOnSaveFiletypes": ["css", "markdown"],
+  // python
+  "python.pythonPath": "python3"
+}
