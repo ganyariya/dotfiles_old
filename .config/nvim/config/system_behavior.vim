@@ -46,6 +46,12 @@ set incsearch
 set hlsearch
 
 " ------------------------------
+" popup
+" ------------------------------
+set pumblend=10
+set winblend=10
+
+" ------------------------------
 " system
 " ------------------------------
 set encoding=UTF-8
