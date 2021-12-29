@@ -131,6 +131,7 @@ casks=(
     karabiner-elements
     keycastr
     kindle
+    lua
     mamp
     manico
     meetingbar
