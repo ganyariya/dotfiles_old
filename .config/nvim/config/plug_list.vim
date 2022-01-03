@@ -73,11 +73,24 @@ Plug 'andymass/vim-matchup', {'on': []}
 " Dashboard
 Plug 'glepnir/dashboard-nvim'
 
+" Move Cursor Animation
+Plug 'danilamihailov/beacon.nvim', {'on': []}
+
+" Line find character
+Plug 'unblevable/quick-scope', {'on': []}
+
+" Undo Tree
+Plug 'mbbill/undotree', {'on': []}
+
+" Famouse
+Plug 'tpope/vim-surround', {'on': []}
+
 call plug#end()
 
 
 " ------------------------------
 " Lazy Load
+" https://zenn.dev/kawarimidoll/articles/8172a4c29a6653
 " ------------------------------
 function! s:LazyLoadPlugs(timer) abort
   " save current position by marking Z because plug#load reloads current buffer
@@ -106,9 +119,14 @@ function! s:LazyLoadPlugs(timer) abort
         \   'fzf',
         \   'fzf.vim',
         \   'vim-airline',
+        \   'beacon.nvim',
+        \   'quick-scope',
+        \   'undotree',
+        \   'vim-surround',
         \ )
   normal! g`Z
   delmarks Z
 endfunction
 
 call timer_start(20, function("s:LazyLoadPlugs"))
+
