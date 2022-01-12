@@ -27,10 +27,10 @@ alt + cmd - left: yabai -m window --swap west
 alt + cmd - right: yabai -m window --swap east
 alt + cmd - up: yabai -m window --swap north
 alt + cmd - down: yabai -m window --swap south
-ctrl + shift - h: yabai -m window --resize left:-50:0 || yabai -m window --resize right:-50:0
-ctrl + shift - l: yabai -m window --resize right:50:0 || yabai -m window --resize left:50:0
-ctrl + shift - j: yabai -m window --resize bottom:0:20 || yabai -m window --resize top:0:20
-ctrl + shift - k: yabai -m window --resize top:0:-20 || yabai -m window --resize bottom:0:-20
+ctrl + shift - h: yabai -m window --resize left:-100:0 || yabai -m window --resize right:-100:0
+ctrl + shift - l: yabai -m window --resize right:100:0 || yabai -m window --resize left:100:0
+ctrl + shift - j: yabai -m window --resize bottom:0:50 || yabai -m window --resize top:0:50
+ctrl + shift - k: yabai -m window --resize top:0:-50 || yabai -m window --resize bottom:0:-50
 # ******************************************
 # Focus Display
 # ******************************************
