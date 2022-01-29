@@ -14,11 +14,11 @@ let g:coc_global_extensions = [
       \'coc-prettier', 
       \'coc-pyright', 
       \'coc-sh', 
-      \'coc-spell-checker', 
       \'coc-tabnine', 
       \'coc-tsserver', 
       \'coc-vimlsp', 
       \'coc-yaml'
 \]
 
+"\'coc-spell-checker', 
 
