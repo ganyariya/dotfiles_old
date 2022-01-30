@@ -30,6 +30,7 @@ formulas=(
     fd
     figlet
     fish
+    gcc
     gh
     git
     git-brws
