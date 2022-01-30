@@ -53,6 +53,7 @@ alias ls='exa --icons'
 alias cat='bat'
 alias t='tweet'
 alias tt='tweet'
+alias g++='g++ -std=c++17'
 alias pdf2eps='pdftops -eps'
 
 # --------------------
