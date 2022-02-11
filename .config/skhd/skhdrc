@@ -1,9 +1,9 @@
 # ******************************************
 # Launch Applications
 # ******************************************
-ctrl + cmd - 0x24: ~/dotfiles/bin/toggle Notion
-shift + cmd - 0x24: ~/dotfiles/bin/toggle Alacritty
-shift + cmd - 0x01: ~/dotfiles/bin/toggle slack
+#ctrl + cmd - 0x24: ~/dotfiles/bin/toggle Notion
+#shift + cmd - 0x24: ~/dotfiles/bin/toggle Alacritty
+#shift + cmd - 0x01: ~/dotfiles/bin/toggle slack
 # ******************************************
 # Focus Window
 # ******************************************
