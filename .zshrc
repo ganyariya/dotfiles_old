@@ -18,8 +18,11 @@ export PATH=$PATH:/usr/local/sbin
 # --------------------
 # Completion
 # --------------------
-if [ -e ~/.zsh/completions ]; then
-  fpath=(~/.zsh/completions $fpath)
+if [ -e /Applications/Docker.app/Contents/Resources/etc/docker.zsh-completion ];then
+    ln -fs /Applications/Docker.app/Contents/Resources/etc/docker.zsh-completion /usr/local/share/zsh/site-functions/_docker
+fi
+if [ -e ~/.zsh/completion ]; then
+  fpath=(~/.zsh/completion $fpath)
 fi
 
 autoload -U compinit
