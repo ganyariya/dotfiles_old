@@ -38,7 +38,9 @@ export LANG=ja_JP.UTF-8
 # init
 # --------------------
 eval "$(pyenv init -)"
+eval "$(pyenv init --path)"
 eval $(thefuck --alias)
+eval "$(direnv hook zsh)"
 
 # --------------------
 # Python

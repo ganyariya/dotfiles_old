@@ -23,6 +23,7 @@ formulas=(
     bat
     cookiecutter
     ctop
+    dagger/tap/dagger
     dat
     dust
     exa
