@@ -11,13 +11,14 @@ rm -rf fonts
 # Cica (powerline + nerd font)
 mkdir ~/.tmp_font
 cd ~/.tmp_font
-curl -OL https://github.com/miiton/Cica/releases/download/v5.0.2/Cica_v5.0.2_with_emoji.zip
+curl -OL https://github.com/miiton/Cica/releases/download/v5.0.3/Cica_v5.0.3.zip
 curl -OL https://github.com/yuru7/HackGen/releases/download/v2.5.3/HackGenNerd_v2.5.3.zip
-unzip Cica_v5.0.2_with_emoji.zip
+unzip Cica_v5.0.3.zip
 unzip HackGenNerd_v2.5.3.zip
 cp -f Cica*.ttf ~/Library/Fonts/
 cp -f HackGenNerd_v2.5.3/HackGen*.ttf ~/Library/Fonts/
 fc-cache -vf
+cd ~
 rm -rf ~/.tmp_font
 
 # tmux
