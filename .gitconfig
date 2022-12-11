@@ -31,3 +31,4 @@
     navigate = true
 [diff]
     colorMoved = default
+    tool = default-diftool

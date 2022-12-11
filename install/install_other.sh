@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# fish
-# echo /usr/local/bin/fish | sudo tee -a /etc/shells
-
 # powerline
 git clone https://github.com/powerline/fonts.git --depth=1
 cd fonts
@@ -29,11 +26,3 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 # zsh
 chsh -s /bin/zsh
-
-# tex
-brew install --cask mactex
-sudo tlmgr update --self --all
-sudo tlmgr paper a4
-
-# auto-selfcontrol
-cp -n auto-selfcontrol/config.json /usr/local/etc/auto-selfcontrol/config.json

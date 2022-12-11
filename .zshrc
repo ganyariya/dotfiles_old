@@ -18,9 +18,6 @@ export PATH=$PATH:/usr/local/sbin
 # --------------------
 # Completion
 # --------------------
-if [ -e /Applications/Docker.app/Contents/Resources/etc/docker.zsh-completion ];then
-    ln -fs /Applications/Docker.app/Contents/Resources/etc/docker.zsh-completion /usr/local/share/zsh/site-functions/_docker
-fi
 if [ -e ~/.zsh/completion ]; then
   fpath=(~/.zsh/completion $fpath)
 fi
@@ -38,9 +35,7 @@ export LANG=ja_JP.UTF-8
 # init
 # --------------------
 eval "$(pyenv init -)"
-eval "$(pyenv init --path)"
 eval $(thefuck --alias)
-eval "$(direnv hook zsh)"
 
 # --------------------
 # Python
@@ -51,15 +46,13 @@ export PIPENV_VENV_IN_PROJECT=true
 # --------------------
 # alias
 # -------------------
-alias atl='atcoder-tools'
 alias vim='nvim'
 alias vi='nvim'
 alias ls='exa --icons'
 alias cat='bat'
-alias t='tweet'
-alias tt='tweet'
 alias g++='g++ -std=c++17'
-alias pdf2eps='pdftops -eps'
+alias sed='gsed'
+alias xargs='xargs '
 
 # --------------------
 # vim
@@ -124,6 +117,7 @@ setopt hist_ignore_dups
 setopt hist_ignore_all_dups
 setopt print_eight_bit
 zstyle ':completion:*:default' menu select=1
+zstyle ':completion:*' matcher-list 'm:{[:lower:][:upper:]}={[:lower:][:upper:]}'
 
 # --------------------
 # history

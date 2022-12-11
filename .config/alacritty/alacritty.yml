@@ -155,12 +155,9 @@ schemes:
 # shell
 shell:
   program: /bin/zsh
-  args:
-    - --login
-    - -c
-    - tmuxinator daily
+  # args:
+  #   - --login
+  #   - -c
+  #   - tmuxinator daily
 
 colors: *tokyo-night-storm
-
-env:
-  TERM: alacritty

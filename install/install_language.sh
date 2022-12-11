@@ -6,13 +6,6 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 
-# asdf-plugin
-# asdf plugin-add nodejs
-# asdf plugin-add golang
-# asdf plugin-add rust
-# asdf plugin-add nim
-# asdf plugin-add python
-
 # go
 brew install go
 go get github.com/knqyf263/pet
@@ -39,6 +32,9 @@ npm install -g gitmoji-cli
 npm install -g gatsby-cli
 npm install -g surge
 npm install -g zx
+
+# deno
+brew install deno
 
 # python
 pip install --upgrade pip
