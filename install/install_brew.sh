@@ -21,7 +21,6 @@ formulas=(
     aws-shell
     bat
     ctop
-    dagger/tap/dagger
     dat
     dust
     exa
@@ -36,7 +35,6 @@ formulas=(
     git-brws
     git-lfs
     gist
-    gitui
     git-delta
     gtop
     gotop
@@ -97,32 +95,25 @@ casks=(
     alt-tab
     appcleaner
     bitwarden
-    boostnote
-    cacher
     cheatsheet
     dash
     deepl
     discord
     docker
-    dropbox
     flux
     font-hack-nerd-font
     gitkraken
     google-backup-and-sync
     gyazo
     iterm2
-    julia
     kap
     karabiner-elements
     keycastr
-    kindle
     lua
-    manico
     meetingbar
     notion
     obs
     postman
-    r
     raycast
     rectangle
     selfcontrol
@@ -130,9 +121,7 @@ casks=(
     slack
     spotify
     steam
-    ueil
     unity-hub
-    ubersicht
     visual-studio-code
     vlc
     zoom
@@ -170,7 +159,7 @@ echo "brew installed"
 
 echo "services"
 
-brew services start yabai
+# brew services start yabai
 
 # https://qiita.com/macololidoll/items/1c369217c6203dd479bd
 

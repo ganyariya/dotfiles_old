@@ -25,6 +25,7 @@
 .config/spotify-tui
 .config/musikcube
 .config/gh/hosts.yml
+.config/raycast
 
 .config/karabiner/*
 !.config/karabiner/karabiner.json
