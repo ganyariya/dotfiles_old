@@ -1,0 +1,7 @@
+{
+  // prettier
+  "coc.preferences.formatOnSaveFiletypes": ["css", "markdown"],
+  // python
+  "python.pythonPath": "python3",
+  "clangd.path": "~/dotfiles/.config/coc/extensions/coc-clangd-data/install/13.0.0/clangd_13.0.0/bin/clangd"
+}

@@ -32,6 +32,9 @@
 .config/nvim/plugged
 .config/nvim/plugin
 !.config/nvim/plugin-init-vim
+.config/nvim_backup/plugged
+.config/nvim_backup/plugin
+!.config/nvim_backup/plugin-init-vim
 .config/fish/*
 !.config/fish/config.fish
 .config/tmux/*
