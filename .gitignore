@@ -15,17 +15,19 @@
 .config/thefuck
 .config/gcloud
 .config/iterm2
-.config/neofetch
+# .config/neofetch
 .config/nnn
 .config/wireshark
 .config/xbuild
 .config/yarn
+.config/git
 .config/wtf
 .config/ranger
 .config/spotify-tui
 .config/musikcube
-.config/gh/hosts.yml
 .config/raycast
+.config/dagger
+.config/gh/hosts.yml
 
 .config/karabiner/*
 !.config/karabiner/karabiner.json
