@@ -13,7 +13,7 @@ font:
 live_config_reload: true
 
 window:
-  opacity: 0.92
+  opacity: 0.90
   decorations: full
 
 schemes:
@@ -155,9 +155,5 @@ schemes:
 # shell
 shell:
   program: /bin/zsh
-  # args:
-  #   - --login
-  #   - -c
-  #   - tmuxinator daily
 
 colors: *tokyo-night-storm
